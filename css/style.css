@@ -1,0 +1,85 @@
+/* Reset */
+@import url("reset.css");
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color: #5E6282;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column ;
+	overflow: clip;
+}
+
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+/* Components */
+.header-block {
+	display: grid;
+	gap: 10px;
+}
+.header-block__label {
+	text-transform: uppercase;
+	color: #4475F2;
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 123%; /* 23/18 */
+}
+.header-block__title {
+	color: black;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 135%; /* 65/48 */
+}
+
+/* Header */
+
+.header {
+	padding-top: 77px;
+}
+.header__container {
+	display: flex;
+	align-items: center;
+	gap: 125px;
+}
+.header__logo {
+	flex: 0 0 80px;
+}
+.header__logo img {
+	max-width: 100%;
+}
+.header_menu {
+}
+.menu {
+}
+.menu__list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.menu__item {
+}
+.menu__link {
+	font-size: 14px;
+	color: #9A9EA6;
+	transition: color 0.6s;
+}
+
+.menu__link:hover {
+	color: #4737FF;
+}
