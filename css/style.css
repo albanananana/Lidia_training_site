@@ -28,7 +28,7 @@ body {
 .page {}
 .page__hero {}
 .page__features {}
-
+.page__services {}
 
 /* Components */
 
@@ -375,4 +375,35 @@ box-shadow: 0 30px 60px 0 rgba(68,117,242,.5);
 	.features__item {
 		flex-grow: 1;
 	}
+}
+
+/* Services */
+
+.services {
+}
+.services__container {
+}
+.page__container {
+}
+.services__header-block {
+}
+.services__items {
+
+}
+.services__item {
+	display: flex;
+	flex-wrap: wrap;
+}
+.services__content {
+	flex: 0 1 50%;
+}
+.services__body {
+	
+}
+.services__title {
+}
+.services__text {
+}
+.services__image {
+	flex: 0 1 50%;
 }
